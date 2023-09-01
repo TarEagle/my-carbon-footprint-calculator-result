@@ -55,7 +55,7 @@ export default function Home() {
           style={{ animationDelay: "0.25s", animationFillMode: "forwards" }}
         >
           <Balancer>
-            ¿Sabías que un vuelo desde Buenos Aires hasta Mendoza, con una distancia aproximada de 1,000 km, genera alrededor de 120 kg de CO2?
+            ¿Sabías que un vuelo desde Buenos Aires hasta Mendoza, con una distancia aproximada de 1,000 km, genera por persona alrededor de 120 kg de CO2?
           </Balancer>
         </p>
         <a
