@@ -59,7 +59,7 @@ export default function Home() {
           </Balancer>
         </p>
         <a
-          href="https://twitter.com/steventey/status/1613928948915920896"
+          href="https://twitter.com/intent/tweet?text=Acabo%20de%20calcular%20mi%20huella%20de%20carbono%20con%20%40tareagleok%20%C2%BFTe%20animas%20a%20descubrir%20la%20tuya?%20%F0%9F%8C%B1%0A%0ALet's%20make%20a%20difference!%20%F0%9F%8E%AF%0A%0A%23TarEagleArgentina%0A%23JuntosCuidemosElPlaneta"
           target="_blank"
           rel="noreferrer"
           className="my-5 mx-auto mb-5 flex max-w-fit animate-fade-up items-center justify-center space-x-5 overflow-hidden rounded-full bg-blue-100 px-5 py-2 transition-colors hover:bg-blue-200"
