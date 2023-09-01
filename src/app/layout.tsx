@@ -1,8 +1,7 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+import { sfPro, inter } from "../fonts";
+import cx from "classnames";
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -16,7 +15,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={cx(sfPro.variable, inter.variable)}>
+        <div className="fixed h-screen w-full bg-gradient-to-br from-[#22C55E] to-[#AAF0D1]" />
+        <main className="flex min-h-screen w-full flex-col items-center justify-center py-32">
+          {children}
+        </main>
+      </body>
     </html>
   )
 }
